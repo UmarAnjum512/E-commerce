@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirha Fashion</title>
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
+    <!-- font style 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courgette&family=League+Spartan:wght@100..900&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    
+    <!-- font ichons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="header">
+        <a href=""><img src="image/PikPng.com_fashion-png_1194040.png" alt="" class="logo"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">index</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Bloge</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Cart.html" id="ig-bage"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+
+        <div id="mobile">
+          <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+    </header>
+    <!-- header close -->
+
+    <!-- hero start -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div id="hero" class="w-100">
+              <div id="heading">
+                  <h4>Trade-in-offer</h4>
+                  <h2>Super value deals</h2>
+                  <h1>On all products</h1>
+                  <p>Save more with coupons & up to 70% off! </p>
+                  <button>Shop now</button>
+              </div>
+              <img src="image/male-boy-child-clothing-man-winter-label-79db6c8599064f43aec871d19ae7c2a0.png" alt="" id="b-image">
+            </div>
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          </div>
+          <div class="carousel-item">
+            <div id="hero2" class=" w-100">
+              <img src="image/PngItem_3977074.png" alt="" id="b-image2">
+              <div id="heading2">
+                  <h4>Trade-in-offer</h4>
+                  <h2>Super value deals</h2>
+                  <h1>On all products</h1>
+                  <p>Save more with coupons & up to 70% off! </p>
+                  <button>Shop Now</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="hero3" class=" w-100">
+              <div id="heading3">
+                  <h4>Trade-in-offer</h4>
+                  <h2>Super value deals</h2>
+                  <h1>On all products</h1>
+                  <p>Save more with coupons & up to 70% off! </p>
+                  <button>Shop Now</button>
+              </div>
+              <img src="image/Daco_127116.png" alt="" id="b-image3">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- hero end -->
+
+    <!-- Featured start -->
+    <section id="product" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="image/maksi_1.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="image/maksi_2.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="image/maksi_4.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="image/maksi_3.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro" id="pro2">
+          <img src="image/romper_1.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="image/maksi_6.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="image/maksi_7.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="image/maksi_8.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Featured end  -->
+
+    <!-- bannar start -->
+    <section id="bannar" class="section-m1">
+      <h4>Repair Services</h4>
+      <h2>Upto <span>70% off</span>-All t-Shirts & Accesories</h2>
+      <button class="normal">Expoler More</button>
+    </section>
+    <!-- bannar star -->
+
+    <!-- new arraivals strat -->
+    <section id="product2" class="section-p1">
+      <h2>New Arraivals</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+        <div class="pro2">
+          <img src="image/pngwing.com (4).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com (1).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com (2).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com (3).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com (4).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com (5).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com (6).png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+
+        <div class="pro2">
+          <img src="image/pngwing.com.png">
+          <div class="deltal" >
+            <span>Adidaas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping  cart"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- new arraivals end -->
+
+     <!-- bannar -->
+    <section id="sm-bannar" class="section-p1">
+      <div class="bannar-box bannar-box1">
+        <h4>crazy deals</h4>
+        <h2>Buy 1 get 1 Free</h2>
+        <span>The best classic dress is on sale at cara</span>
+        <button class="white">Learn More</button>
+      </div>
+
+      <div class="bannar-box bannar-box2">
+        <h4>Spring/Summer</h4>
+        <h2>Upcomming seasion</h2>
+        <span>The best classic dress is on sale at cara</span>
+        <button class="white"> Collection</button>
+      </div>
+    </section>
+
+    <!-- bannar3 start -->
+    <section id="bannar3">
+      <div class="bannar-box">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter Collection -50% OFF</h3>
+      </div>
+
+      <div class="bannar-box saim">
+        <h2>NEW FOOTWEAR COLLECTION</h2>
+        <h3>Spring/Summer 2022</h3>
+      </div>
+
+      <div class="bannar-box adil">
+        <h2>T-SHIRTS</h2>
+        <h3>New Trendy Prints</h3>
+      </div>
+    </section>
+    <!-- bannar3 end -->
+
+    <!-- newsletter start -->
+     <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up for Newsletters</h4>
+        <p>Get E-mail update about our latest shop and <span>special offers</span></p>
+      </div>
+      <div class="form2">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign Up</button>
+      </div>
+
+     </section>
+     <!-- newsletter end -->
+
+     <!-- footer start -->
+      <footer class="section-p1">
+        <div class="colu">
+          <img src="image/PikPng.com_fashion-png_1194040.png" alt="" class="logo">
+          <h4>Contact</h4>
+          <p><strong>Address:</strong> Shop no:f-113,114 samama shoping mall</p>
+          <p><strong>Phone no:</strong> +0987654321</p>
+          <p><strong>Hours:</strong> 10:00 - 10:00, Mon - Sat</p>
+          <div class="follow">
+            <h4>Follow us</h4>
+            <div class="ichons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="colu">
+          <h4>About</h4>
+          <a href="About.html">About Us</a>
+          <a href="#">Delivrey Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="Contact.html">Contact Us</a>
+        </div>
+
+        <div class="colu">
+          <h4>My Account</h4>
+          <a href="#">Sign Up</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+
+        <div class="colu-inst">
+          <h4>Install App</h4>
+          <p>From App Store Google Play</p>
+          <div class="row">
+            <img src="image/apple.png" alt="" class="logo2">
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="image/klipartz.com.png" alt="" class="logo">
+
+        </div>
+
+        <div class="copyright">
+          <p>@ 2024, Anjum - HTML CSS Ecommerce Website</p>
+
+        </div>
+
+      </footer>
+
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="index.js"></script>
+</body>
+</html>
